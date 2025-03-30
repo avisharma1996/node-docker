@@ -1,0 +1,4 @@
+1. Building Images
+    docker build --tag node-docker .
+2. Running Containers
+    docker run node-docker

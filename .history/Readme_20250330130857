@@ -1,0 +1,6 @@
+1. Building Images
+    docker build --tag node-docker .
+2. Running Containers
+    docker run node-docker
+3. Run In Detached Mode
+    docker run -d -p 8000:8000 node-docker
